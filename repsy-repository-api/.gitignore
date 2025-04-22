@@ -1,0 +1,54 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE - Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IDE - VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Storage (except test data)
+storage/*
+!storage/test-pkg/
+
+# Docker
+*.tar
+*.tar.gz
+
+# Compiled class file
+*.class
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual Machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Local environment
+.env
